@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang=”en”>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Martin Cheung">
+        <title>Lab 2 Journal Entries</title>
+        <link rel="shortcut icon" type="image/jpg" href="images/small-profile.jpeg"/>
+    </head>
+    <body>
+        <header>
+            <div>Journal Entries</div>
+            <nav>
+              <ul>
+                <li><a href="#Entry 1">Entry 1</a></li>
+                <li><a href="#Entry 2">Entry 2</a></li>
+                <li><a href="#Entry 3">Entry 3</a></li>
+              </ul>
+            </nav>
+        </header>
+
+        <main>
+            <hr>
+            <section>
+            <h1>Journal Entries</h1>
+            <h2 id="Entry 1">Entry 1</h2>
+            <img
+              src="https://images.unsplash.com/photo-1575853121743-60c24f0a7502"
+              alt="pancake"
+              width="250"
+            />
+            <p>Had pancakes for breakfast!</p>
+            <p>Also, did most of todays to-do list:</p>
+            <ol>
+                <li><input type="checkbox" /> Homework</li>
+                <li><input type="checkbox" /> Workout</li>
+                <li><input type="checkbox" /> Laundry</li>
+            </ol>
+            </section>
+
+            <section>
+            <h2 id="Entry 2">Entry 2</h2>
+      
+            <h3>Part 1</h3>
+            <p>
+                First, I got all of my <b>homework</b> out of the way. Then, I did my usual workout.<strong>Made sure to stretch beforehand!!!</strong> Of course, I didn't forget to put my clean folded clothes from yesterday's <i>laundry</i> in the correct drawers. <em>It feels great to have clean clothes available!</em>
+            </p>
+            
+            <h3>Part 2</h3>
+            <p>
+                Made dinner for my family. I followed a recipe I found for <a href="https://www.foodiecrush.com/35-best-pasta-recipes/">pasta</a>. <br> They said it was delicious!
+
+            </p>
+            </section>
+            
+            <section>
+            <h2 id="Entry 3">Entry 3</h2>
+            <p><span>Today I listened to music all day!</span></p>
+            <p>I found a new song I really like called astrid by glaive:</p>
+            <audio controls>
+                <source src="images/glaive - astrid.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+
+            <details>
+                <summary>More about glaive</summary>
+                <p>Glaive is a hyperpop artist.</p>
+              </details>
+
+            <p>How the song made me feel:</p>
+            <video width="320" height="240" controls>
+                <source src="images/sample_960x540.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+
+            <p>Also I did the usual:</p>
+            <ul>
+                <li>Homework</li>
+                <li>Workout</li>
+                <li>Laundry</li>
+            </ul>
+            </section>
+            <hr>
+        </main>
+
+        <footer>
+            <p>Thanks for reading!</p>
+
+            <form action="/future_entries" method="post">
+                <fieldset>
+                    <ul>
+                        <label for="start">Start date:</label>
+
+                        <input type="date" id="start" name="trip-start"
+                            value="2021-04-01"
+                            min="2021-01-01" max="2030-12-31">
+
+                        <p>Select a day of the week:</p>
+
+                        <div>
+                            <input type="radio" id="huey" name="drone" value="huey"
+                                    checked>
+                            <label for="huey">Monday</label>
+                        </div>
+                        
+                        <div>
+                            <input type="radio" id="dewey" name="drone" value="dewey">
+                            <label for="dewey">Tuesday</label>
+                        </div>
+                        <li>
+                            <label for="entry">Entry:</label>
+                            <textarea id="entry" name="user_entry"></textarea>
+                        </li>
+                        <li>
+                            <label for="text">Extra:</label>
+                            <input type="text" id="text" name="user_text">
+                            <label for="good">Good?</label>
+                            <input type="checkbox" id="good" name="user_good">
+                        </li>
+                        <li>
+                            <label for="ice-cream-choice">Ice Cream of the day:</label>
+                            <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+
+                            <datalist id="ice-cream-flavors">
+                                <option value="Chocolate">
+                                <option value="Coconut">
+                                <option value="Mint">
+                                <option value="Strawberry">
+                                <option value="Vanilla">
+                            </datalist>
+                        </li>
+                        <li>
+                            <label for="pet-select">Animal of the day:</label>
+
+                            <select name="pets" id="pet-select">
+                                <option value="">--Please choose an option--</option>
+                                <option value="dog">Dog</option>
+                                <option value="cat">Cat</option>
+                                <option value="hamster">Hamster</option>
+                                <option value="parrot">Parrot</option>
+                                <option value="spider">Spider</option>
+                                <option value="goldfish">Goldfish</option>
+                            </select>
+                        </li>
+                        <li class="button">
+                            <button type="submit">Submit Entry</button>
+                        </li>
+                    </ul>
+                </fieldset>
+            </form>
+
+        </footer>
+    </body>
+</html>
