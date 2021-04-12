@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang=”en”>
+<html lang=”en-US”>
     <head>
         <meta charset="UTF-8" />
         <meta name="author" content="Martin Cheung">
@@ -11,9 +11,9 @@
             <div>Journal Entries</div>
             <nav>
               <ul>
-                <li><a href="#Entry 1">Entry 1</a></li>
-                <li><a href="#Entry 2">Entry 2</a></li>
-                <li><a href="#Entry 3">Entry 3</a></li>
+                <li><a href="#Entry1">Entry 1</a></li>
+                <li><a href="#Entry2">Entry 2</a></li>
+                <li><a href="#Entry3">Entry 3</a></li>
               </ul>
             </nav>
         </header>
@@ -22,7 +22,7 @@
             <hr>
             <section>
             <h1>Journal Entries</h1>
-            <h2 id="Entry 1">Entry 1</h2>
+            <h2 id="Entry1">Entry 1</h2>
             <img
               src="https://images.unsplash.com/photo-1575853121743-60c24f0a7502"
               alt="pancake"
@@ -38,7 +38,7 @@
             </section>
 
             <section>
-            <h2 id="Entry 2">Entry 2</h2>
+            <h2 id="Entry2">Entry 2</h2>
       
             <h3>Part 1</h3>
             <p>
@@ -53,11 +53,11 @@
             </section>
             
             <section>
-            <h2 id="Entry 3">Entry 3</h2>
+            <h2 id="Entry3">Entry 3</h2>
             <p><span>Today I listened to music all day!</span></p>
             <p>I found a new song I really like called astrid by glaive:</p>
             <audio controls>
-                <source src="images/glaive - astrid.mp3" type="audio/mpeg">
+                <source src="images/glaive-astrid.mp3" type="audio/mpeg">
               Your browser does not support the audio element.
             </audio>
 
@@ -87,7 +87,6 @@
 
             <form action="/future_entries" method="post">
                 <fieldset>
-                    <ul>
                         <label for="start">Start date:</label>
 
                         <input type="date" id="start" name="trip-start"
@@ -144,7 +143,6 @@
                         <li class="button">
                             <button type="submit">Submit Entry</button>
                         </li>
-                    </ul>
                 </fieldset>
             </form>
 
