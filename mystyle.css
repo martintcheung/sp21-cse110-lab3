@@ -27,6 +27,7 @@ h2 {
 h3 {
   color: hsl(0, 100, 50);
   margin: auto;
+  position: static;
 }
 
 .box-1 {
@@ -39,6 +40,7 @@ h3 {
 
 .box-2 {
   padding: 25px 50px 75px 100px;
+  position: sticky;
 }
 
 div {
