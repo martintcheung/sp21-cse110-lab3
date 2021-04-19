@@ -26,6 +26,18 @@ h3 {
 .box-1 {
   background-color: #567895;
   border: 5px solid #0b385f;
-  border-bottom-style: dashed;
+  border-style: dashed;
   color: #fff;
 }
+
+.box-2 {
+  
+}
+
+div {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+  
