@@ -16,3 +16,7 @@ h3 {
   color: hsl(0, 100, 50);
   margin-left: 25/64in;
 }
+
+.ems li {
+  font-size: 0.8em;
+}
