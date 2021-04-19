@@ -1,3 +1,4 @@
+/* changing background color to orange */
 body {
   background-color: #FF9900;
   line-height: 1.3rem;
@@ -30,6 +31,10 @@ h3 {
   position: static;
 }
 
+.container {
+  display: flex; /* or inline-flex */
+}
+
 .box-1 {
   padding-top: 50px;
   padding-right: 30px;
@@ -46,6 +51,7 @@ h3 {
 .box-2 {
   padding: 25px 50px 75px 100px;
   position: sticky;
+  display: grid | inline-grid;
 }
 
 /* Removes underline from links */
