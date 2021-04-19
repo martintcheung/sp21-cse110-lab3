@@ -20,6 +20,8 @@ h3 {
   margin: auto;
 }
 
-.ems li {
-  font-size: 0.8em;
+p, 
+ul {
+  border: 2px solid rebeccapurple;
+  padding: .5em;
 }
