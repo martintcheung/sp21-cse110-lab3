@@ -5,16 +5,19 @@ body {
 h1 {
   color: navy;
   margin-left: 1cm;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+  margin-right: 1cm;
 }
 
 h2 {
   color: rgb(88,88,88);
-  margin-left: 38px;
+  margin: 38px 38px 38px 38px;
 }
 
 h3 {
   color: hsl(0, 100, 50);
-  margin-left: 25/64in;
+  margin: auto;
 }
 
 .ems li {
