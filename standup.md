@@ -1,9 +1,14 @@
 # Date
 
-## Daily Reminders
 
-## Stand ups
+### Daily Reminders
 
-## Progress
 
-## Blockers
+### Stand ups
+
+
+### Progress
+
+
+### Blockers
+
